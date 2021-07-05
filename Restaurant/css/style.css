@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Utility Classes */
+.center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1300px;
+  overflow: hidden;
+  padding: 2rem;
+}
+.golden {
+  color: #c89702;
+}
+.largep {
+  font-size: 1.3rem;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1;
+}
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  color: #fff;
+  background: #333;
+}
+#navbar ul {
+  display: flex;
+  padding: 1.4rem 4rem;
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li a {
+  color: limegreen;
+  padding: 0.7rem 1rem;
+  transition: all 0.2s ease-in;
+}
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+  color: #fff;
+}
+/* Showcase */
+#showcase {
+  background: url(../img/bg2.png) center center/cover no-repeat;
+  height: 100vh;
+  color: #fff;
+}
+#showcase .description {
+  background-color: rgba(34, 30, 27, 0.7);
+  float: right;
+  width: 500px;
+  height: 500px;
+  margin-right: 250px;
+  margin-top: 100px;
+  padding: 3.5rem 2rem;
+}
+#showcase .description .divider2 {
+  padding: 1rem;
+}
+#showcase .description h3 {
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+#showcase .description .items {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+#showcase .description .items .item img {
+  border-radius: 50%;
+  border: solid 5px #777;
+}
+/* Menu */
+#all-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5rem 10rem;
+  background: url(../img/SectionBackground.png) no-repeat center center/cover;
+}
+.menu .mini-menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c89702;
+  padding: 10px 0;
+}
+.menu .what {
+  padding: 10px 0 20px 0;
+}
+#all-menu .menu h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+/* Footer */
+#footer {
+  background: #191919;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#footer .each-one {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  flex: 1;
+  max-width: 400px;
+  padding: 1.9rem 0;
+  line-height: 1.5;
+}
+#footer .each-one h4 {
+  margin-bottom: 3rem;
+}
+#footer .footer-img img {
+  padding: 1rem;
+}
+#footer .divider2 {
+  padding: 1rem 0;
+}
